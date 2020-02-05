@@ -4,10 +4,10 @@ import Node
 class BST():
 	
 	def __init__(self):
-		self.rootNode = Node
+		self.rootNode = None
 
 	def insert(self,data):
-		if self.rootNode is Node:
+		if self.rootNode is None:
 			self.rootNode = Node.Node(data)
 		else:
 			self.rootNode.insert(data)
